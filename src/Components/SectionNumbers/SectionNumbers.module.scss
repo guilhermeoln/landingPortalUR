@@ -1,0 +1,30 @@
+.containerSectionNumbers {
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .cardNumbers {
+        text-align: center;
+
+        h2 {
+            font-weight: 700;
+            font-size: 64px;
+            color: #1FC29D;
+        }
+
+        p {
+            font-weight: 700;
+            font-size: 16px;
+            margin-top: -50px;
+            color: #868686;
+        }
+
+    }
+}
+
+@media(max-width: 900px){
+    .containerSectionNumbers{
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+}

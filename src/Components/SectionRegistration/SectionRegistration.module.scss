@@ -1,0 +1,93 @@
+.containerRegistration {
+    display: flex;
+    width: 70%;
+    margin-top: 50px;
+
+    .imgRegistration {
+        width: 50%;
+
+        img {
+            width: 90%;
+        }
+    }
+
+    .formRegistration {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 60px;
+
+        h2 {
+            font-weight: 700;
+            font-size: 24px;
+            color: #636363;
+            margin-top: -10px;
+        }
+
+        h3 {
+            font-weight: 700;
+            font-size: 13px;
+            color: #636363;
+            margin-top: 35px;
+        }
+
+        img {
+            width: 60%;
+        }
+
+        input {
+            width: 100%;
+            height: 35px;
+            background: #E7E7E7;
+            border: 1px solid #636363;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            button {
+                width: 60%;
+                height: 45px;
+                margin-top: 20px;
+                background: #1FC29D;
+                border-radius: 25px;
+                font-weight: 700;
+                color: #F5F7F8;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 900px) {
+    .containerRegistration {
+        flex-direction: column;
+        width: 90%;
+
+        .imgRegistration {
+            width: 90%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .formRegistration {
+            width: 100%;
+            margin-left: 0px;
+
+            form{
+
+                button{
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
